@@ -1,0 +1,13 @@
+@import "../../../scss/index.scss";
+
+.social-media {
+  a {
+    margin: 0 8px;
+    color: $font-dark;
+
+    .icon {
+      font-size: 20px;
+      opacity: 1 !important;
+    }
+  }
+}

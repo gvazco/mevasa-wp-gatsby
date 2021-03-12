@@ -1,0 +1,19 @@
+@import "../../sass/index.scss";
+
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+  @media (max-width: $breakpoint-down-xs) {
+    justify-content: center;
+  }
+
+  a {
+    margin: 0 8px;
+    color: $font-dark;
+
+    .icon {
+      font-size: 20px;
+      opacity: 1 !important;
+    }
+  }
+}

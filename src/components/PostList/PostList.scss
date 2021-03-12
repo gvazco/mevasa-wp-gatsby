@@ -1,0 +1,16 @@
+.post-list {
+  margin: 0 !important;
+  justify-content: center;
+
+  &__item {
+    width: 100% !important;
+    box-shadow: 2px 2px 5px #999 !important;
+    max-height: 450px !important;
+
+    .extra {
+      i {
+        margin-right: 5px !important;
+      }
+    }
+  }
+}

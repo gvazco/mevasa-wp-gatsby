@@ -1,0 +1,67 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add semantic-ui-react semantic-ui-css
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python37\Scripts\;C:\Python37\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\ZeroTier\One\;C:\Users\gusta\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Users\gusta\AppData\Local\Android\Sdk\emulator;C:\Users\gusta\AppData\Local\Android\Sdk\tools;C:\Users\gusta\AppData\Local\Android\Sdk\tools\bin;C:\Users\gusta\AppData\Local\Android\Sdk\plataform-tools;C:\Users\gusta\Gradle\gradle-6.5.1\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\laragon\bin;C:\laragon\bin\apache\httpd-2.4.35-win64-VC15\bin;C:\laragon\bin\composer;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin\git\usr\bin;C:\laragon\bin\laragon\utils;C:\laragon\bin\mysql\mysql-5.7.24-winx64\bin;C:\laragon\bin\nginx\nginx-1.14.0;C:\laragon\bin\ngrok;C:\laragon\bin\nodejs\node-v10.5.0;C:\laragon\bin\notepad++;C:\laragon\bin\php\php-7.2.11-Win32-VC15-x64;C:\laragon\bin\putty;C:\laragon\bin\redis\redis-x64-3.2.100;C:\laragon\bin\telnet;C:\laragon\usr\bin;C:\Users\gusta\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\gusta\AppData\Roaming\Composer\vendor\bin;C:\Users\gusta\AppData\Local\Microsoft\WindowsApps;C:\Users\gusta\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\gusta\AppData\Local\GitHubDesktop\bin;C:\Program Files\heroku\bin;C:\Users\gusta\AppData\Local\Yarn\bin;C:\Users\gusta\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\gusta\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/date-fns/-/date-fns-2.19.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141376:19)
+      at Object.onceWrapper (events.js:421:28)
+      at ClientRequest.emit (events.js:315:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:784:9)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at TLSSocket.Socket._onTimeout (net.js:483:8)
+      at listOnTimeout (internal/timers.js:554:17)
+      at processTimers (internal/timers.js:497:7)
+
+npm manifest: 
+  {
+    "name": "mevasa-wp-gatsby",
+    "version": "1.0.0",
+    "private": true,
+    "description": "MevasaWpGatsby",
+    "author": "Gustavo Vázco",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean"
+    },
+    "dependencies": {
+      "gatsby": "^3.0.1",
+      "gatsby-plugin-image": "^1.0.0",
+      "gatsby-plugin-manifest": "^3.0.0",
+      "gatsby-plugin-react-helmet": "^4.0.0",
+      "gatsby-plugin-sass": "^4.0.1",
+      "gatsby-plugin-sharp": "^3.0.0",
+      "gatsby-plugin-sitemap": "^3.0.0",
+      "gatsby-source-filesystem": "^3.0.0",
+      "gatsby-source-wordpress": "^5.0.0",
+      "gatsby-transformer-sharp": "^3.0.0",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-helmet": "^6.1.0",
+      "sass": "^1.32.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
