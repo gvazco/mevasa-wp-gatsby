@@ -5,7 +5,7 @@ export default [
   },
   {
     name: "facebook messenger",
-    link: "https://facebook.com/mevasacomercializadora",
+    link: "http://m.me/mevasacomercializadora",
   },
   {
     name: "instagram",
@@ -13,10 +13,10 @@ export default [
   },
   {
     name: "whatsapp",
-    link: "https://instagram.com/mevasacomercializadora",
+    link: "https://wa.link/szvz94",
   },
   {
     name: "linkedin",
-    link: "https://linkedin.com/",
+    link: "https://www.linkedin.com/company/18897991/admin/",
   },
 ];

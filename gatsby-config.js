@@ -3,6 +3,7 @@ module.exports = {
     title: `Techos y Mantenimientos | Mevasa Comercializadora`,
     description: `Este es el blog Techos y Mantenimientos | Mevasa Comercializadora`,
     author: `@mevasacomercializadora`,
+    siteUrl: `https://techosymantenimientos.com`,
   },
   plugins: [
     {
@@ -30,6 +31,7 @@ module.exports = {
     },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    `gatsby-plugin-sitemap`,
     {
       resolve: "gatsby-source-filesystem",
       options: {

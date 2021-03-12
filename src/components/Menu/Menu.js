@@ -1,11 +1,11 @@
-import React from "react"
-import { Link } from "gatsby"
-import { Image } from "semantic-ui-react"
-import { Navbar, Nav } from "react-bootstrap"
+import React from "react";
+import { Link } from "gatsby";
+import { Image } from "semantic-ui-react";
+import { Navbar, Nav } from "react-bootstrap";
 // import SocialMedia from "../SocialMedia"
 // import Courses from "../Courses"
-import "./Menu.scss"
-import logo from "../../images/MevasaTechosLogo.png"
+import "./Menu.scss";
+import logo from "../../images/MevasaTechosLogo.png";
 
 export default function Menu() {
   return (
@@ -43,12 +43,12 @@ export default function Menu() {
               Productos
             </Link>
 
-            <Link to="/contacto" activeClassName="active">
+            <a href="https://wa.link/szvz94" target="_blank" rel="noreferer">
               Contacto
-            </Link>
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
     </div>
-  )
+  );
 }
