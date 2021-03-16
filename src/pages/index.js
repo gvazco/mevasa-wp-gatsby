@@ -13,7 +13,7 @@ export default function index() {
             <h1>Somos Especialistas</h1>
             <h3> En techos y mantenimientos industriales - residenciales.</h3>
 
-            <Button fluid className="main-button">
+            <Button inverted color="green" fluid className="main-button">
               ¡Quiero ver más!
             </Button>
           </Link>

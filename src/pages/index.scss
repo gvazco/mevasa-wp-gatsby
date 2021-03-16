@@ -16,7 +16,7 @@
   height: 100vh;
 
   .text {
-    padding: 15% 0 !important;
+    padding: 12% 0 !important;
     max-width: 1140px;
 
     a {
@@ -37,10 +37,10 @@
         text-shadow: 3px 3px 6px rgb(0, 0, 0);
         font-weight: 600;
         padding-bottom: 1rem;
-        transition: 0.5s;
+        transition: 0.3s;
 
         &:hover {
-          color: #007974;
+          color: #22be34;
           text-shadow: 3px 3px 6px rgb(0, 0, 0);
         }
 
@@ -68,7 +68,8 @@
       }
     }
     .main-button {
-      font-size: 1rem;
+      font-size: 1.2rem;
+      transition: 0.3s;
     }
 
     @media (max-width: $breakpoint-up-sm) {
