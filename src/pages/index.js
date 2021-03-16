@@ -8,7 +8,7 @@ export default function index() {
   return (
     <Bloglayout>
       <Container fluid className="hero">
-        <Container className="text">
+        <Container fluid className="text">
           <Link to="/portafolio">
             <h1>SOMOS ESPECIALISTAS</h1>
             <h3> En techos y mantenimientos industriales - residenciales.</h3>

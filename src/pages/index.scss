@@ -37,18 +37,19 @@
         text-shadow: 3px 3px 6px rgb(0, 0, 0);
         font-weight: 600;
         padding-bottom: 1rem;
-        transition: 0.3s;
+        transition: 0.5s;
 
         &:hover {
           color: #22be34;
+          font-size: 6rem;
           text-shadow: 3px 3px 6px rgb(0, 0, 0);
         }
 
         @media (max-width: $breakpoint-up-sm) {
-          font-size: 2.5rem;
+          font-size: 2.3rem;
           letter-spacing: 3px;
           &:hover {
-            font-size: 3rem !important;
+            font-size: 2.4rem !important;
           }
         }
       }
@@ -63,12 +64,14 @@
 
         @media (max-width: $breakpoint-up-sm) {
           font-size: 1rem;
+          letter-spacing: 1px;
         }
       }
     }
     .main-button {
+      margin-top: 20px;
       font-size: 1.2rem;
-      transition: 0.3s;
+      transition: 0.5s;
     }
 
     @media (max-width: $breakpoint-up-sm) {
