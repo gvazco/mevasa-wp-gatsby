@@ -11,6 +11,10 @@
     margin: 0 8px;
     color: $font-dark;
 
+    &:hover {
+      text-decoration: none;
+    }
+
     .icon {
       font-size: 20px;
       opacity: 1 !important;
