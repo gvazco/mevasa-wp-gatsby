@@ -8,9 +8,12 @@ export default function index() {
   return (
     <Bloglayout>
       <Container fluid className="hero">
-        <div className="text">
-          <Link to="/portafolio">Somos Especialistas</Link>
-        </div>
+        <Container className="text">
+          <Link to="/portafolio">
+            <h1>Somos Especialistas</h1>
+            <h3> En techos y mantenimientos industriales - residenciales.</h3>
+          </Link>
+        </Container>
       </Container>
     </Bloglayout>
   );
