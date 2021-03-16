@@ -10,7 +10,7 @@ export default function index() {
       <Container fluid className="hero">
         <Container className="text">
           <Link to="/portafolio">
-            <h1>Somos Especialistas</h1>
+            <h1>SOMOS ESPECIALISTAS</h1>
             <h3> En techos y mantenimientos industriales - residenciales.</h3>
 
             <Button inverted color="green" fluid className="main-button">
