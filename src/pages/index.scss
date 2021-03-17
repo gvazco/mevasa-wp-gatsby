@@ -15,8 +15,8 @@
   align-items: center;
 
   .text {
-    // padding: 12% 0 !important;
-    position: 50% 50%;
+    padding: 10% 0 !important;
+
     max-width: 1140px;
 
     a {
@@ -76,7 +76,7 @@
     }
 
     @media (max-width: $breakpoint-up-sm) {
-      padding: 70% 0 !important;
+      padding: 50% 0 !important;
     }
   }
 }
