@@ -95,9 +95,9 @@ exports.createPages = async ({ actions, graphql }) => {
     }
   `);
 
-  console.log(posts.data.allWpPost.nodes);
-  console.log(portafolios.data.allWpProyecto.nodes);
-  console.log(productos.data.allWpProducto.nodes);
+  // console.log(posts.data.allWpPost.nodes);
+  // console.log(portafolios.data.allWpProyecto.nodes);
+  // console.log(productos.data.allWpProducto.nodes);
 
   /* -------------------------------------------------------------------------- */
   /*                          Crear paginación dinámica                         */
