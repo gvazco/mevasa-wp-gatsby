@@ -37,15 +37,21 @@
       padding: 1em 1.2em;
       color: #0098d3;
     }
+
+    img {
+      width: 100% !important;
+    }
+
     figure {
       align-items: center;
       justify-content: center;
     }
 
-    figure.image {
+    figure.image,
+    figure.wp-block-image.is-resized {
       text-align: center;
       img {
-        width: 100%;
+        width: 100% !important;
 
         @media (min-width: $breakpoint-up-md) {
           max-width: 100%;

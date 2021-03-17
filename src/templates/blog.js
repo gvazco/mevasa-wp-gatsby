@@ -4,7 +4,7 @@ import BlogLayout from "../layouts/BlogLayout";
 import PostList from "../components/PostList";
 import Pagination from "../components/Pagination";
 import Seo from "../components/seo";
-import imageBlog from "../images/remates.jpg";
+import imageBlog from "../images/torre-de-control-aicm-10.jpg";
 
 export default function Blog(props) {
   const { data, pageContext } = props;

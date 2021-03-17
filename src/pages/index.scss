@@ -13,10 +13,10 @@
   display: flex;
   overflow: hidden;
   align-items: center;
-  height: 100vh;
 
   .text {
-    padding: 12% 0 !important;
+    // padding: 12% 0 !important;
+    position: 50% 50%;
     max-width: 1140px;
 
     a {
@@ -46,10 +46,10 @@
         }
 
         @media (max-width: $breakpoint-up-sm) {
-          font-size: 2.3rem;
+          font-size: 2.2rem;
           letter-spacing: 3px;
           &:hover {
-            font-size: 2.4rem !important;
+            font-size: 2.3rem !important;
           }
         }
       }
@@ -65,6 +65,7 @@
         @media (max-width: $breakpoint-up-sm) {
           font-size: 1rem;
           letter-spacing: 1px;
+          padding: 3px;
         }
       }
     }
