@@ -39,9 +39,13 @@ export default function Menu() {
               Portafolio
             </Link>
 
-            <Link to="/productos" partiallyActive activeClassName="active">
+            {/* <Link to="/productos" partiallyActive activeClassName="active">
               Productos
-            </Link>
+            </Link> */}
+
+            <a href="https://tienda.techosymantenimientos.com.mx/" target="_blank" rel="noreferer">
+              Productos
+            </a>
 
             <a href="https://wa.link/szvz94" target="_blank" rel="noreferer">
               Contacto
