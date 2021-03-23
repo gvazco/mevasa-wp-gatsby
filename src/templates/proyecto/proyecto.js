@@ -9,42 +9,42 @@ import "./proyecto.scss";
 import Seo from "../../components/seo";
 
 export default function Proyecto(props) {
-  const { pageContext } = props;
-  const { data: proyecto } = pageContext; 
+	const { pageContext } = props;
+	const { data: proyecto } = pageContext;
 
-  return (
-    <BlogLayout className="proyecto">
-      <Seo
-        title={proyecto.Seo.seotitle}
-        description={proyecto.Seo.seodescription}
-        image={proyecto.featuredImage.node.localFile.publicURL}
-      />
+	return (
+		<BlogLayout className="proyecto">
+			<Seo
+				title={proyecto.Seo.seotitle}
+				description={proyecto.Seo.seodescription}
+				image={proyecto.featuredImage.node.localFile.publicURL}
+			/>
 
-      <div className="markdown-body">
-        <h1>{proyecto.title}</h1>
+			<div className="markdown-body">
+				<h1>{proyecto.title}</h1>
 
-        <span>
-          <Icon name="calendar alternate outline" />
-          {moment(proyecto.date).format("LL")}
-        </span>
+				<span>
+					<Icon name="calendar alternate outline" />
+					{moment(proyecto.date).format("LL")}
+				</span>
 
-        <h3 className="place">
-          <Icon name="map marker alternate" />
-          {proyecto.FieldsProyectos.place}
-        </h3>
-        <div
-          dangerouslySetInnerHTML={{
-            __html: TransformOembedToIframe(proyecto.content),
-          }}
-        />
-        <br />
-        <br />
-        {/* <Disqus
+				<h3 className="place">
+					<Icon name="map marker alternate" />
+					{proyecto.FieldsProyectos.place}
+				</h3>
+				<div
+					dangerouslySetInnerHTML={{
+						__html: TransformOembedToIframe(proyecto.content),
+					}}
+				/>
+				<br />
+				<br />
+				{/* <Disqus
           identifier={proyecto.id}
           title={proyecto.title}
           url={`/${proyecto.slug}`}
         /> */}
-      </div>
-    </BlogLayout>
-  );
+			</div>
+		</BlogLayout>
+	);
 }
