@@ -1,15 +1,26 @@
 .proyectos-list {
-  margin: 0 !important;
-  justify-content: center;
+	margin: 0 !important;
+	justify-content: center;
 
-  &__item {
-    width: 100% !important;
-    box-shadow: 2px 2px 5px #999 !important;
+	a:hover {
+		text-decoration: none !important;
+	}
 
-    .extra {
-      i {
-        margin-right: 5px !important;
-      }
-    }
-  }
+	&__item {
+		width: 100% !important;
+		box-shadow: 2px 2px 5px #999 !important;
+
+		.content > .header {
+			// text-transform: capitalize !important;
+		}
+
+		.extra {
+			.meta {
+				padding: 5px 0;
+			}
+			i {
+				margin-right: 5px !important;
+			}
+		}
+	}
 }

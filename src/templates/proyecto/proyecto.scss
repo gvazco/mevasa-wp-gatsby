@@ -6,12 +6,6 @@
 }
 
 .proyecto {
-  h1 {
-    text-align: center;
-    margin: 30px 0;
-    font-family: BaronNeue;
-    text-transform: lowercase;
-  }
 
   .markdown-body {
     padding: 10px 20%;
@@ -24,9 +18,39 @@
       padding: 10px 0;
     }
 
+    
+
     p {
       font-size: 24px;
       font-family: "Open Sans", sans-serif;
+    }
+
+    h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-family: BaronNeue;
+    text-transform: lowercase;
+    }
+
+    h2{
+      font-size: 30px;
+    }
+
+    h3.place {
+      font-size: 20px;
+      margin: 20px 0;
+    }
+
+    span{
+      margin-left: 3px !important;
+    }
+
+    a{
+      overflow-wrap: break-word;
+
+      &:hover{
+        text-decoration: none;
+      }
     }
 
     code {

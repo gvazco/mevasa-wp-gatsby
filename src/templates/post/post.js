@@ -26,7 +26,7 @@ export default function post(props) {
         />
         <br />
         <br />
-        <Disqus identifier={post.id} title={post.title} url={`/${post.slug}`} />
+        {/* <Disqus identifier={post.id} title={post.title} url={`/${post.slug}`} /> */}
       </div>
     </BlogLayout>
   );

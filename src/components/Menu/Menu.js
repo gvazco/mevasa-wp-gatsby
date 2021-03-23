@@ -8,51 +8,55 @@ import "./Menu.scss";
 import logo from "../../images/MevasaTechosLogo.png";
 
 export default function Menu() {
-  return (
-    <div className="menu">
-      <Navbar
-        sticky="top"
-        collapseOnSelect
-        expand="lg"
-        bg="transparent"
-        variant="light"
-      >
-        <Link to="/">
-          <Image src={logo} />
-        </Link>
+	return (
+		<div className="menu">
+			<Navbar
+				sticky="top"
+				collapseOnSelect
+				expand="lg"
+				bg="transparent"
+				variant="light"
+			>
+				<Link to="/">
+					<Image src={logo} />
+				</Link>
 
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse
-          id="responsive-navbar-nav"
-          className="justify-content-end"
-        >
-          <Nav>
-            {/* <Link to="/" activeClassName="active">
+				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
+				<Navbar.Collapse
+					id="responsive-navbar-nav"
+					className="justify-content-end"
+				>
+					<Nav>
+						{/* <Link to="/" activeClassName="active">
               Inicio
             </Link> */}
 
-            <Link to="/blog" partiallyActive activeClassName="active">
-              Blog
-            </Link>
+						<Link to="/blog" partiallyActive activeClassName="active">
+							Blog
+						</Link>
 
-            <Link to="/portafolio" partiallyActive activeClassName="active">
-              Portafolio
-            </Link>
+						<Link to="/portafolio" partiallyActive activeClassName="active">
+							Portafolio
+						</Link>
 
-            {/* <Link to="/productos" partiallyActive activeClassName="active">
+						{/* <Link to="/productos" partiallyActive activeClassName="active">
               Productos
             </Link> */}
 
-            <a href="https://tienda.techosymantenimientos.com.mx/" target="_blank" rel="noreferer">
-              Productos
-            </a>
+						<a
+							href="https://wa.me/c/5215582802149"
+							target="_blank"
+							rel="noreferer"
+						>
+							Productos
+						</a>
 
-            <a href="https://wa.link/szvz94" target="_blank" rel="noreferer">
-              Contacto
-            </a>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-    </div>
-  );
+						<a href="https://wa.link/szvz94" target="_blank" rel="noreferer">
+							Contacto
+						</a>
+					</Nav>
+				</Navbar.Collapse>
+			</Navbar>
+		</div>
+	);
 }

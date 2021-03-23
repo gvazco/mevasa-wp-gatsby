@@ -1,13 +1,16 @@
 import React from "react";
 import Disqus from "gatsby-plugin-disqus";
 import BlogLayout from "../../layouts/BlogLayout";
+import { Icon } from "semantic-ui-react";
+import moment from "moment";
+import "moment/locale/es";
 import TransformOembedToIframe from "../../utils/TransformOembedToIframe";
 import "./proyecto.scss";
 import Seo from "../../components/seo";
 
 export default function Proyecto(props) {
   const { pageContext } = props;
-  const { data: proyecto } = pageContext;
+  const { data: proyecto } = pageContext; 
 
   return (
     <BlogLayout className="proyecto">
@@ -19,6 +22,16 @@ export default function Proyecto(props) {
 
       <div className="markdown-body">
         <h1>{proyecto.title}</h1>
+
+        <span>
+          <Icon name="calendar alternate outline" />
+          {moment(proyecto.date).format("LL")}
+        </span>
+
+        <h3 className="place">
+          <Icon name="map marker alternate" />
+          {proyecto.FieldsProyectos.place}
+        </h3>
         <div
           dangerouslySetInnerHTML={{
             __html: TransformOembedToIframe(proyecto.content),
@@ -26,11 +39,11 @@ export default function Proyecto(props) {
         />
         <br />
         <br />
-        <Disqus
+        {/* <Disqus
           identifier={proyecto.id}
           title={proyecto.title}
           url={`/${proyecto.slug}`}
-        />
+        /> */}
       </div>
     </BlogLayout>
   );
