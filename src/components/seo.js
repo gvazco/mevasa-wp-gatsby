@@ -29,7 +29,9 @@ function SEO({ description, lang, meta, title, image }) {
 	);
 
 	const metaDescription = description || site.siteMetadata.description;
-	const defaultTitle = site.siteMetadata?.title;
+	const defaultTitle = site.siteMetadata.title;
+
+	const url = site.siteMetadata.url;
 
 	return (
 		<Helmet
@@ -57,7 +59,7 @@ function SEO({ description, lang, meta, title, image }) {
 				},
 				{
 					property: `og:image`,
-					content: image || imageDefault,
+					content: `${url}${image || imageDefault}`,
 				},
 				{
 					name: `twitter:card`,
