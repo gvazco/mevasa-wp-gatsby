@@ -20,7 +20,7 @@ function SEO({ description, lang, meta, title, image }) {
 						title
 						description
 						author
-						image
+						imageDefault: image
 						url
 					}
 				}
@@ -62,6 +62,10 @@ function SEO({ description, lang, meta, title, image }) {
 					content: `${url}${image || imageDefault}`,
 				},
 				{
+					property: `og:image:type`,
+					content: `image/jpeg`,
+				},
+				{
 					name: `twitter:card`,
 					content: `summary`,
 				},
@@ -86,7 +90,6 @@ SEO.defaultProps = {
 	lang: `en`,
 	meta: [],
 	description: ``,
-	image: null,
 };
 
 SEO.propTypes = {
