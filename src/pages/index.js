@@ -19,10 +19,21 @@ export default function index() {
 					<Link to="/portafolio">
 						<h1>SOMOS ESPECIALISTAS</h1>
 						<h3> En techos, casetas y mantenimientos industriales</h3>
-						<Button positive fluid className="main-button">
+						{/* <Button positive fluid className="main-button">
 							¡Quiero ver más!
-						</Button>
+						</Button> */}
 					</Link>
+
+					<Button.Group className="main-button" fluid size="large">
+						<Button href="/portafolio" positive>
+							Productos
+						</Button>
+
+						<Button.Or text="IR" />
+						<Button href="/portafolio" primary>
+							Portafolio
+						</Button>
+					</Button.Group>
 				</Container>
 			</Container>
 		</Bloglayout>

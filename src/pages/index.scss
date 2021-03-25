@@ -13,6 +13,7 @@
 	display: flex;
 	overflow: hidden;
 	align-items: center;
+	justify-content: center;
 
 	.text {
 		padding: 10% 0 !important;
@@ -71,8 +72,32 @@
 		}
 		.main-button {
 			margin-top: 20px;
-			font-size: 1.4rem;
-			transition: 0.5s;
+
+			.ui.button {
+				font-size: 1.4rem;
+				transition: 0.5s;
+
+				@media (max-width: $breakpoint-up-sm) {
+					font-size: 1.1rem;
+				}
+			}
+			.or {
+				padding: 4px;
+				z-index: 999;
+			}
+
+			.or:before {
+				width: 2.5rem !important;
+				height: 2.5rem !important;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				@media (max-width: $breakpoint-up-sm) {
+					width: 2rem !important;
+					height: 2rem !important;
+				}
+			}
 		}
 
 		@media (max-width: $breakpoint-up-sm) {
