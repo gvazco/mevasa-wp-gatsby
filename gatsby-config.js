@@ -5,8 +5,8 @@ module.exports = {
 		description: `Venta e Instalación de Lámina, somos especialistas en techos y mantenimientos industriales y residenciales`,
 		author: `@mevasacomercializadora`,
 		image: "./src/images/remates.jpg",
-		url: `https://techosymantenimientos.com`,
-		siteUrl: `https://techosymantenimientos.com`,
+		url: `https://techosymantenimientos.com.mx`,
+		siteUrl: `https://techosymantenimientos.com.mx`,
 	},
 	plugins: [
 		{
@@ -34,7 +34,12 @@ module.exports = {
 		},
 		"gatsby-plugin-sharp",
 		"gatsby-transformer-sharp",
-		`gatsby-plugin-sitemap`,
+		{
+			resolve: `gatsby-plugin-sitemap`,
+			options: {
+				sitemapSize: 5000,
+			},
+		},
 		{
 			resolve: "gatsby-source-filesystem",
 			options: {
