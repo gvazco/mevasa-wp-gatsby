@@ -36,6 +36,11 @@
 		margin: 0px 10px 0px -5px !important;
 		font-size: 17px;
 		font-weight: 600;
+		color: $font-gray;
+
+		@media (min-width: $breakpoint-up-lg) {
+			display: none;
+		}
 	}
 
 	button.navbar-toggler.collapsed {
