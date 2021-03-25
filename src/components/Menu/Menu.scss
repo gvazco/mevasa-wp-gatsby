@@ -32,10 +32,20 @@
 	}
 	vertical-align: middle;
 
+	span.nav_bar_title {
+		margin: 0px 10px 0px -5px !important;
+		font-size: 17px;
+		font-weight: 600;
+	}
+
 	button.navbar-toggler.collapsed {
 		background: #ffffff;
 		box-shadow: 3px 3px 6px #bdbdbd, -3px -3px 6px #ffffff;
-		&.active {
+		&:active {
+			background: #ffffff;
+			box-shadow: inset 3px 3px 6px #bdbdbd, inset -3px -3px 6px #ffffff;
+		}
+		&:focus {
 			background: #ffffff;
 			box-shadow: inset 3px 3px 6px #bdbdbd, inset -3px -3px 6px #ffffff;
 		}
@@ -44,6 +54,7 @@
 			box-shadow: inset 3px 3px 6px #bdbdbd, inset -3px -3px 6px #ffffff;
 		}
 	}
+
 	.navbar-nav {
 		margin-top: 20px;
 		a {
@@ -71,6 +82,10 @@
 				background: #ffffff;
 				box-shadow: inset 4px 4px 8px #bdbdbd, inset -4px -4px 8px #ffffff;
 			}
+		}
+
+		a > span.navbar-toggler-icon {
+			background-image: url("../../images/icon-256x256.png") !important;
 		}
 	}
 

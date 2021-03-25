@@ -6,6 +6,7 @@ import { Navbar, Nav } from "react-bootstrap";
 // import Courses from "../Courses"
 import "./Menu.scss";
 import logo from "../../images/MevasaTechosLogo.png";
+import NavIcon from "../../images/icon-256x256.png";
 
 export default function Menu() {
 	return (
@@ -13,7 +14,7 @@ export default function Menu() {
 			<Navbar
 				sticky="top"
 				collapseOnSelect
-				expand="lg"
+				expand="xl"
 				bg="transparent"
 				variant="light"
 			>
@@ -21,11 +22,11 @@ export default function Menu() {
 					<Image src={logo} />
 				</Link>
 
-				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
-				<Navbar.Collapse
-					id="responsive-navbar-nav"
-					className="justify-content-end"
-				>
+				<div className="toggler">
+					<span className="nav_bar_title">Menú -></span>
+					<Navbar.Toggle aria-controls="basic-navbar-nav" />
+				</div>
+				<Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
 					<Nav>
 						<Link to="/" activeClassName="active">
 							Inicio
@@ -39,17 +40,21 @@ export default function Menu() {
 							Productos
 						</a>
 
-						<Link to="/blog" partiallyActive activeClassName="active">
-							Documentación
-						</Link>
+						{/* <Link to="/productos" partiallyActive activeClassName="active">
+              Productos
+            </Link> */}
 
 						<Link to="/portafolio" partiallyActive activeClassName="active">
 							Portafolio
 						</Link>
 
-						{/* <Link to="/productos" partiallyActive activeClassName="active">
-              Productos
-            </Link> */}
+						<Link to="/blog" partiallyActive activeClassName="active">
+							Documentación
+						</Link>
+
+						<Link to="/blog" partiallyActive activeClassName="active">
+							Tutoriales
+						</Link>
 
 						<a href="https://wa.link/szvz94" target="_blank" rel="noreferer">
 							Contacto
