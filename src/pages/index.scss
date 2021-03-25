@@ -1,82 +1,82 @@
 @import "../sass/index.scss";
 
 @font-face {
-  font-family: BaronNeue;
-  src: url("../images/BaronNeue.otf") format("opentype");
+	font-family: BaronNeue;
+	src: url("../images/BaronNeue.otf") format("opentype");
 }
 
 .hero {
-  background-image: url("https://mevasa-gatsby.techosymantenimientos.com.mx/wp-content/uploads/2021/03/mevasa-120918-07-03-36.jpg") !important;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: cover;
-  display: flex;
-  overflow: hidden;
-  align-items: center;
+	background-image: url("https://mevasa-gatsby.techosymantenimientos.com.mx/wp-content/uploads/2021/03/SAM_2245.jpg") !important;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	display: flex;
+	overflow: hidden;
+	align-items: center;
 
-  .text {
-    padding: 10% 0 !important;
+	.text {
+		padding: 10% 0 !important;
 
-    max-width: 1140px;
+		max-width: 1140px;
 
-    a {
-      z-index: 10;
+		a {
+			z-index: 10;
 
-      background-color: rgba(255, 255, 255, 0.3);
+			background-color: rgba(255, 255, 255, 0.3);
 
-      &:hover {
-        text-decoration-line: none !important;
-      }
+			&:hover {
+				text-decoration-line: none !important;
+			}
 
-      h1 {
-        font-family: "BaronNeue";
-        letter-spacing: 5px;
-        font-size: 5.5rem;
-        text-align: center;
-        color: white;
-        text-shadow: 3px 3px 6px rgb(0, 0, 0);
-        font-weight: 600;
-        padding-bottom: 1rem;
-        transition: 0.5s;
+			h1 {
+				font-family: "BaronNeue";
+				letter-spacing: 5px;
+				font-size: 5.5rem;
+				text-align: center;
+				color: white;
+				text-shadow: 3px 3px 6px rgb(0, 0, 0);
+				font-weight: 600;
+				padding-bottom: 1rem;
+				transition: 0.5s;
 
-        &:hover {
-          color: #22be34;
-          font-size: 6rem;
-          text-shadow: 3px 3px 6px rgb(0, 0, 0);
-        }
+				&:hover {
+					color: #21ba45;
+					font-size: 6rem;
+					text-shadow: 3px 3px 6px rgb(0, 0, 0);
+				}
 
-        @media (max-width: $breakpoint-up-sm) {
-          font-size: 2.2rem;
-          letter-spacing: 3px;
-          &:hover {
-            font-size: 2.3rem !important;
-          }
-        }
-      }
-      h3 {
-        font-size: 1.5rem;
-        text-transform: uppercase;
-        text-align: center;
-        color: white;
-        font-weight: 500;
-        padding: 5px 0;
-        background-color: rgba(0, 0, 0, 0.5);
+				@media (max-width: $breakpoint-up-sm) {
+					font-size: 2.2rem;
+					letter-spacing: 3px;
+					&:hover {
+						font-size: 2.3rem !important;
+					}
+				}
+			}
+			h3 {
+				font-size: 1.5rem;
+				text-transform: uppercase;
+				text-align: center;
+				color: white;
+				font-weight: 500;
+				padding: 5px 0;
+				background-color: rgba(0, 0, 0, 0.75);
 
-        @media (max-width: $breakpoint-up-sm) {
-          font-size: 1rem;
-          letter-spacing: 1px;
-          padding: 3px;
-        }
-      }
-    }
-    .main-button {
-      margin-top: 20px;
-      font-size: 1.2rem;
-      transition: 0.5s;
-    }
+				@media (max-width: $breakpoint-up-sm) {
+					font-size: 1rem;
+					letter-spacing: 1px;
+					padding: 3px;
+				}
+			}
+		}
+		.main-button {
+			margin-top: 20px;
+			font-size: 1.4rem;
+			transition: 0.5s;
+		}
 
-    @media (max-width: $breakpoint-up-sm) {
-      padding: 50% 0 !important;
-    }
-  }
+		@media (max-width: $breakpoint-up-sm) {
+			padding: 50% 0 !important;
+		}
+	}
 }

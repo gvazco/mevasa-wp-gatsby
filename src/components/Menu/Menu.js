@@ -27,12 +27,20 @@ export default function Menu() {
 					className="justify-content-end"
 				>
 					<Nav>
-						{/* <Link to="/" activeClassName="active">
-              Inicio
-            </Link> */}
+						<Link to="/" activeClassName="active">
+							Inicio
+						</Link>
+
+						<a
+							href="https://wa.me/c/5215582802149"
+							target="_blank"
+							rel="noreferer"
+						>
+							Productos
+						</a>
 
 						<Link to="/blog" partiallyActive activeClassName="active">
-							Blog
+							Documentación
 						</Link>
 
 						<Link to="/portafolio" partiallyActive activeClassName="active">
@@ -42,14 +50,6 @@ export default function Menu() {
 						{/* <Link to="/productos" partiallyActive activeClassName="active">
               Productos
             </Link> */}
-
-						<a
-							href="https://wa.me/c/5215582802149"
-							target="_blank"
-							rel="noreferer"
-						>
-							Productos
-						</a>
 
 						<a href="https://wa.link/szvz94" target="_blank" rel="noreferer">
 							Contacto

@@ -18,9 +18,8 @@ export default function index() {
 				<Container fluid className="text">
 					<Link to="/portafolio">
 						<h1>SOMOS ESPECIALISTAS</h1>
-						<h3> En techos y mantenimientos industriales - residenciales.</h3>
-
-						<Button inverted color="green" fluid className="main-button">
+						<h3> En techos, casetas y mantenimientos industriales</h3>
+						<Button positive fluid className="main-button">
 							¡Quiero ver más!
 						</Button>
 					</Link>
