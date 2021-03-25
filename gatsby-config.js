@@ -34,7 +34,14 @@ module.exports = {
 		},
 		"gatsby-plugin-sharp",
 		"gatsby-transformer-sharp",
-		"gatsby-plugin-robots-txt",
+		{
+			resolve: "gatsby-plugin-robots-txt",
+			options: {
+				host: "https://techosymantenimientos.com.mx",
+				sitemap: "https://techosymantenimientos.com.mx/sitemap.xml",
+				policy: [{ userAgent: "*", allow: "/" }],
+			},
+		},
 		{
 			resolve: `gatsby-plugin-sitemap`,
 			options: {
