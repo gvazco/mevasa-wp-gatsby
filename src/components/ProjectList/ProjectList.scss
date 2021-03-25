@@ -10,8 +10,8 @@
 		width: 100% !important;
 		box-shadow: 2px 2px 5px #999 !important;
 
-		.content > .header {
-			// text-transform: capitalize !important;
+		&:hover {
+			background-color: rgb(229, 236, 250);
 		}
 
 		.extra {

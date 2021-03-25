@@ -25,7 +25,7 @@ export default function index() {
 					</Link>
 
 					<Button.Group className="main-button" fluid size="large">
-						<Button href="/portafolio" positive>
+						<Button href="/productos" positive>
 							Productos
 						</Button>
 
