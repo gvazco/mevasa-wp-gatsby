@@ -1,5 +1,4 @@
 import React from "react";
-import Disqus from "gatsby-plugin-disqus";
 import BlogLayout from "../../layouts/BlogLayout";
 import { Icon } from "semantic-ui-react";
 import moment from "moment";
@@ -37,13 +36,6 @@ export default function Proyecto(props) {
 						__html: TransformOembedToIframe(proyecto.content),
 					}}
 				/>
-				<br />
-				<br />
-				{/* <Disqus
-          identifier={proyecto.id}
-          title={proyecto.title}
-          url={`/${proyecto.slug}`}
-        /> */}
 			</div>
 		</BlogLayout>
 	);

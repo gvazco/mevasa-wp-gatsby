@@ -95,18 +95,6 @@ exports.createPages = async ({ actions, graphql }) => {
 		}
 	`);
 
-	const categorias = await graphql(`
-		query {
-			allWpCategory {
-				nodes {
-					name
-					slug
-					id
-				}
-			}
-		}
-	`);
-
 	// console.log(posts.data.allWpPost.nodes);
 	// console.log(portafolios.data.allWpProyecto.nodes);
 	// console.log(productos.data.allWpProducto.nodes);
@@ -140,17 +128,9 @@ exports.createPages = async ({ actions, graphql }) => {
 		component: path.resolve(`src/templates/productos.js`), // Just like `createPage()`
 	});
 
-	paginate({
-		createPage, // The Gatsby `createPage` function
-		items: categorias.data.allWpCategory.nodes, // An array of objects
-		itemsPerPage: 9, // How many items you want per page
-		pathPrefix: "/categorias", // Creates pages like `/blog`, `/blog/2`, etc
-		component: path.resolve(`src/templates/categorias.js`), // Just like `createPage()`
-	});
-
-	/* -------------------------------------------------------------------------- */
-	/*                        Crear ruta de pagina interna                             */
-	/* -------------------------------------------------------------------------- */
+	/* ----------------------------------------------------------------- */
+	/*                    Crear ruta de pagina interna                   */
+	/* ----------------------------------------------------------------- */
 
 	posts.data.allWpPost.nodes.forEach((post) => {
 		createPage({

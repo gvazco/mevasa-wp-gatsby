@@ -2,11 +2,8 @@ import React from "react";
 import { Link } from "gatsby";
 import { Image } from "semantic-ui-react";
 import { Navbar, Nav } from "react-bootstrap";
-// import SocialMedia from "../SocialMedia"
-// import Courses from "../Courses"
 import "./Menu.scss";
 import logo from "../../images/MevasaTechosLogo.png";
-import NavIcon from "../../images/icon-256x256.png";
 
 export default function Menu() {
 	return (
@@ -35,7 +32,7 @@ export default function Menu() {
 						<a
 							href="https://wa.me/c/5215582802149"
 							target="_blank"
-							rel="noreferer"
+							rel="noreferrer noopener"
 						>
 							Productos
 						</a>
@@ -52,11 +49,15 @@ export default function Menu() {
 							Documentación
 						</Link>
 
-						<Link to="/blog" partiallyActive activeClassName="active">
+						{/* <Link to="/blog" partiallyActive activeClassName="active">
 							Tutoriales
-						</Link>
+						</Link> */}
 
-						<a href="https://wa.link/szvz94" target="_blank" rel="noreferer">
+						<a
+							href="https://wa.link/szvz94"
+							target="_blank"
+							rel="noreferrer noopener"
+						>
 							Contacto
 						</a>
 					</Nav>
