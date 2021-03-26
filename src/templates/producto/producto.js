@@ -1,6 +1,6 @@
 import React from "react";
 import Disqus from "gatsby-plugin-disqus";
-import { Grid, Row, Image, Button, Label } from "semantic-ui-react";
+import { Grid, Image, Button, Label } from "semantic-ui-react";
 import BlogLayout from "../../layouts/BlogLayout";
 import TransformOembedToIframe from "../../utils/TransformOembedToIframe";
 import "./producto.scss";
