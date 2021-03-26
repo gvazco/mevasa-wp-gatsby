@@ -29,17 +29,9 @@ export default function Menu() {
 							Inicio
 						</Link>
 
-						<a
-							href="https://wa.me/c/5215582802149"
-							target="_blank"
-							rel="noreferrer noopener"
-						>
+						<Link href="/productos" partiallyActive activeClassName="active">
 							Productos
-						</a>
-
-						{/* <Link to="/productos" partiallyActive activeClassName="active">
-              Productos
-            </Link> */}
+						</Link>
 
 						<Link to="/portafolio" partiallyActive activeClassName="active">
 							Portafolio

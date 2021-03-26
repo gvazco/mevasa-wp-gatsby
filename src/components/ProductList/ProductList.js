@@ -14,7 +14,9 @@ export default function ProductList(props) {
 			{map(productos, (producto) => (
 				<Grid.Column key={producto.id} mobile={16} tablet={16} computer={5}>
 					<Card className="productos-list__item">
-						<Image src={producto.featuredImage.node.localFile.publicURL} />
+						<Link to={producto.slug}>
+							<Image src={producto.featuredImage.node.localFile.publicURL} />
+						</Link>
 						<Card.Content>
 							<Card.Header>
 								<Link to={producto.slug}>{producto.title}</Link>
