@@ -24,14 +24,18 @@ export default function Producto(props) {
 					<Grid>
 						<Grid.Column mobile={16} tablet={16} computer={8}>
 							<Image src={producto.featuredImage.node.localFile.publicURL} />
-							<Grid.Row>
+							<Grid.Row className="buttons">
 								<Button positive href={producto.FieldsProductos.link}>
 									Cotizar ahora
 								</Button>
-								<Label tag className="precio">
-									{producto.FieldsProductos.textlabel} $
-									{producto.FieldsProductos.precio} + IVA
-								</Label>
+								{producto.FieldsProductos.precio ? (
+									<Label tag className="precio">
+										{producto.FieldsProductos.textlabel} $
+										{producto.FieldsProductos.precio} + IVA
+									</Label>
+								) : (
+									""
+								)}
 							</Grid.Row>
 						</Grid.Column>
 						<Grid.Column mobile={16} tablet={10} computer={8}>

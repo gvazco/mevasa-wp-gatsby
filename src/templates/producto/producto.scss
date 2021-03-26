@@ -48,6 +48,11 @@
 			}
 		}
 
+		.row.buttons {
+			display: flex;
+			justify-content: space-around;
+		}
+
 		code {
 			display: block;
 			border: 1px solid rgba(22, 229, 231, 0.6);

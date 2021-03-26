@@ -25,12 +25,7 @@ export default function index() {
 					</Link>
 
 					<Button.Group className="main-button" fluid size="large">
-						<Button
-							href="https://wa.me/c/5215582802149"
-							target="_blank"
-							rel="noreferer"
-							positive
-						>
+						<Button href="/productos" positive>
 							Productos
 						</Button>
 
