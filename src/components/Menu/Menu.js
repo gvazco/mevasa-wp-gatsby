@@ -29,7 +29,7 @@ export default function Menu() {
 							Inicio
 						</Link>
 
-						<Link href="/productos" partiallyActive activeClassName="active">
+						<Link to="/productos" partiallyActive activeClassName="active">
 							Productos
 						</Link>
 

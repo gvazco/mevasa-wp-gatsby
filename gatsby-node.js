@@ -126,7 +126,7 @@ exports.createPages = async ({ actions, graphql }) => {
 	paginate({
 		createPage, // The Gatsby `createPage` function
 		items: productos.data.allWpProducto.nodes, // An array of objects
-		itemsPerPage: 9, // How many items you want per page
+		itemsPerPage: 12, // How many items you want per page
 		pathPrefix: "/productos", // Creates pages like `/blog`, `/blog/2`, etc
 		component: path.resolve(`src/templates/productos.js`), // Just like `createPage()`
 	});
