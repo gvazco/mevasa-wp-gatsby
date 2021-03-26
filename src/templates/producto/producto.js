@@ -1,10 +1,8 @@
 import React from "react";
-import Disqus from "gatsby-plugin-disqus";
 import { Grid, Image, Button, Label } from "semantic-ui-react";
 import BlogLayout from "../../layouts/BlogLayout";
 import TransformOembedToIframe from "../../utils/TransformOembedToIframe";
 import "./producto.scss";
-// import ProdExcerpt from "../../components/ProdExcerpt";
 import Seo from "../../components/seo";
 
 export default function Producto(props) {
@@ -26,33 +24,20 @@ export default function Producto(props) {
 					<Grid>
 						<Grid.Column mobile={16} tablet={16} computer={8}>
 							<Image src={producto.featuredImage.node.localFile.publicURL} />
+							<Grid.Row>
+								<Button positive href={producto.FieldsProductos.link}>
+									Cotizar ahora
+								</Button>
+								<Label tag className="precio">
+									500 pzs ${producto.FieldsProductos.precio} + IVA
+								</Label>
+							</Grid.Row>
 						</Grid.Column>
 						<Grid.Column mobile={16} tablet={10} computer={8}>
-							<p dangerouslySetInnerHTML={{ __html: producto.excerpt }}></p>
+							<p dangerouslySetInnerHTML={{ __html: producto.content }}></p>
 						</Grid.Column>
-						<Grid.Row>
-							<Grid.Column mobile={16} tablet={6} computer={8}>
-								<Button href="#">Cotizar ahora</Button>
-								<Label tag className="precio">
-									${producto.FieldsProductos.precio}
-								</Label>
-							</Grid.Column>
-						</Grid.Row>
 					</Grid>
 				</div>
-
-				<div
-					dangerouslySetInnerHTML={{
-						__html: TransformOembedToIframe(producto.content),
-					}}
-				/>
-				<br />
-				<br />
-				<Disqus
-					identifier={producto.id}
-					title={producto.title}
-					url={`/${producto.slug}`}
-				/>
 			</div>
 		</BlogLayout>
 	);

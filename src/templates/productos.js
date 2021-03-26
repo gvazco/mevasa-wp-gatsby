@@ -33,6 +33,9 @@ export const query = graphql`
 			nodes {
 				FieldsProductos {
 					precio
+					link
+					textbutton
+					textlabel
 				}
 				Seo {
 					seodescription

@@ -73,6 +73,9 @@ exports.createPages = async ({ actions, graphql }) => {
 				nodes {
 					FieldsProductos {
 						precio
+						link
+						textbutton
+						textlabel
 					}
 					Seo {
 						seodescription

@@ -1,6 +1,11 @@
 .productos-list {
 	margin: 0 !important;
 	justify-content: center;
+	text-align: center;
+
+	a {
+		color: black;
+	}
 
 	a:hover {
 		text-decoration: none !important;
