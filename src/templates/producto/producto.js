@@ -29,7 +29,8 @@ export default function Producto(props) {
 									Cotizar ahora
 								</Button>
 								<Label tag className="precio">
-									500 pzs ${producto.FieldsProductos.precio} + IVA
+									{producto.FieldsProductos.textlabel} $
+									{producto.FieldsProductos.precio} + IVA
 								</Label>
 							</Grid.Row>
 						</Grid.Column>
