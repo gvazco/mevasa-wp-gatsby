@@ -43,6 +43,13 @@ module.exports = {
 			},
 		},
 		{
+			resolve: `gatsby-plugin-google-analytics`,
+			options: {
+				trackingId: "UA-68944652-6",
+				head: true,
+			},
+		},
+		{
 			resolve: `gatsby-plugin-sitemap`,
 			options: {
 				sitemapSize: 5000,

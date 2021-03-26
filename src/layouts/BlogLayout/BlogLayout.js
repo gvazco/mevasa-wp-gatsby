@@ -41,7 +41,10 @@ export default function BlogLayout(props) {
 					<p>
 						© 2020 Techos y Mantenimientos | Mevasa Comercializadora. Todos los
 						derechos reservados. Sitio desarrollado por:
-						<a href="#"> Disturbio Ilustrativo.</a>
+						<a href="https://facebook.com/disturbioilustrativo">
+							{" "}
+							Disturbio Ilustrativo.
+						</a>
 					</p>
 				</Grid.Column>
 			</Grid>
