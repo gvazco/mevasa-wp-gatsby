@@ -36,6 +36,15 @@ export default function Producto(props) {
 								) : (
 									""
 								)}
+
+								{producto.FieldsProductos.textlabel &&
+								!producto.FieldsProductos.precio ? (
+									<Label tag className="precio">
+										{producto.FieldsProductos.textlabel}
+									</Label>
+								) : (
+									""
+								)}
 							</Grid.Row>
 						</Grid.Column>
 						<Grid.Column mobile={16} tablet={10} computer={8}>
