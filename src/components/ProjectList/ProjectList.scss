@@ -24,3 +24,12 @@
 		}
 	}
 }
+
+.pagination {
+	display: flex;
+	justify-content: space-between;
+	// margin: 0 20px !important;
+	> a {
+		margin: 0 1.5em;
+	}
+}

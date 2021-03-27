@@ -1,1 +1,0 @@
-export { defautl } from "./ProdExcerpt";
