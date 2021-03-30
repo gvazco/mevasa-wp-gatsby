@@ -19,7 +19,7 @@ export default function ProductList(props) {
 						</Link>
 						<Card.Content>
 							<Card.Header>
-								<Link to={producto.slug}>{producto.title}</Link>
+								<Link to={`/productos/${producto.slug}`}>{producto.title}</Link>
 							</Card.Header>
 						</Card.Content>
 						<Card.Content extra>
