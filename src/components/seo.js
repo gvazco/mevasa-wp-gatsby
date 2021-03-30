@@ -35,16 +35,22 @@ function SEO({ description, lang, meta, title, image }) {
 
 	return (
 		<Helmet
+			
 			htmlAttributes={{
 				lang,
 			}}
 			title={title}
 			titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+			
 			meta={[
 				{
 					name: `description`,
 					content: metaDescription,
 				},
+				{
+					name: `p:domain_verify`,
+					content:`7bbe704063d36f89527b13d25410d588`,
+				}
 				{
 					property: `og:title`,
 					content: title,
