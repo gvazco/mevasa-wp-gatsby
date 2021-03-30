@@ -25,7 +25,12 @@ export default function Producto(props) {
 						<Grid.Column mobile={16} tablet={16} computer={8}>
 							<Image src={producto.featuredImage.node.localFile.publicURL} />
 							<Grid.Row className="buttons">
-								<Button positive href={producto.FieldsProductos.link}>
+								<Button
+									positive
+									href={producto.FieldsProductos.link}
+									target="_blank"
+									rel="noreferrer noopener"
+								>
 									Cotizar ahora
 								</Button>
 								{producto.FieldsProductos.precio ? (
