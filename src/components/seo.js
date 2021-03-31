@@ -29,6 +29,7 @@ function SEO({ description, lang, meta, title, image }) {
 	);
 
 	const metaDescription = description || site.siteMetadata.description;
+
 	const defaultTitle = site.siteMetadata.title;
 
 	const url = site.siteMetadata.url;
@@ -51,7 +52,7 @@ function SEO({ description, lang, meta, title, image }) {
 				},
 				{
 					property: `og:title`,
-					content: title,
+					content: defaultTitle,
 				},
 				{
 					property: `og:description`,
@@ -62,8 +63,20 @@ function SEO({ description, lang, meta, title, image }) {
 					content: `website`,
 				},
 				{
+					property: `og:url`,
+					content: url,
+				},
+				{
 					property: `og:image`,
-					content: `${url}${image || imageDefault}`,
+					content: `${url}/${image || imageDefault}`,
+				},
+				{
+					property: `og:image:width`,
+					content: `1200`,
+				},
+				{
+					property: `og:image:height`,
+					content: `630`,
 				},
 				{
 					property: `og:image:type`,
