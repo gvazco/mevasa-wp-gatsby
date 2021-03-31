@@ -44,31 +44,23 @@ function SEO({ description, lang, meta, title, image }) {
 			meta={[
 				{
 					name: `description`,
-					content: { metaDescription },
+					content: metaDescription,
 				},
 				{
-					name: `p:domain_verify`,
-					content: `7bbe704063d36f89527b13d25410d588`,
-				},
-				{
-					property: `og:title`,
-					content: { defaultTitle },
-				},
-				{
-					property: `og:description`,
-					content: { metaDescription },
+					property: `og:url`,
+					content: url,
 				},
 				{
 					property: `og:type`,
 					content: `website`,
 				},
 				{
-					property: `og:url`,
-					content: { url },
+					property: `og:title`,
+					content: title,
 				},
 				{
 					property: `og:image`,
-					content: `https://techosymantenimientos.com.mx/${image || ogImage}`,
+					content: `${url}${image || ogImage}`,
 				},
 				{
 					property: `og:image:width`,
@@ -81,6 +73,10 @@ function SEO({ description, lang, meta, title, image }) {
 				{
 					property: `og:image:type`,
 					content: `image/jpeg`,
+				},
+				{
+					property: `og:description`,
+					content: metaDescription,
 				},
 				{
 					name: `twitter:card`,
@@ -97,6 +93,10 @@ function SEO({ description, lang, meta, title, image }) {
 				{
 					name: `twitter:description`,
 					content: metaDescription,
+				},
+				{
+					name: `p:domain_verify`,
+					content: `7bbe704063d36f89527b13d25410d588`,
 				},
 			].concat(meta)}
 		/>
