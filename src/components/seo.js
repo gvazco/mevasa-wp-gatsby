@@ -9,7 +9,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
-import imageDefault from "../images/remates.jpg";
+import ogImage from "../images/remates.jpg";
 
 function SEO({ description, lang, meta, title, image }) {
 	const { site } = useStaticQuery(
@@ -44,7 +44,7 @@ function SEO({ description, lang, meta, title, image }) {
 			meta={[
 				{
 					name: `description`,
-					content: metaDescription,
+					content: { metaDescription },
 				},
 				{
 					name: `p:domain_verify`,
@@ -52,11 +52,11 @@ function SEO({ description, lang, meta, title, image }) {
 				},
 				{
 					property: `og:title`,
-					content: defaultTitle,
+					content: { defaultTitle },
 				},
 				{
 					property: `og:description`,
-					content: metaDescription,
+					content: { metaDescription },
 				},
 				{
 					property: `og:type`,
@@ -64,11 +64,11 @@ function SEO({ description, lang, meta, title, image }) {
 				},
 				{
 					property: `og:url`,
-					content: url,
+					content: { url },
 				},
 				{
 					property: `og:image`,
-					content: `${url}/${image || imageDefault}`,
+					content: `https://techosymantenimientos.com.mx/${image || ogImage}`,
 				},
 				{
 					property: `og:image:width`,
