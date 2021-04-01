@@ -1,7 +1,6 @@
 import React from "react";
 import { Grid, Image, Button, Label } from "semantic-ui-react";
 import BlogLayout from "../../layouts/BlogLayout";
-import TransformOembedToIframe from "../../utils/TransformOembedToIframe";
 import "./producto.scss";
 import Seo from "../../components/seo";
 

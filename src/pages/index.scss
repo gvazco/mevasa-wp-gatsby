@@ -123,6 +123,11 @@
 	@media (max-width: $breakpoint-up-sm) {
 		padding: 0 !important;
 	}
+
+	.ui.grid > * {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
 }
 .services-list {
 	margin: 0 !important;

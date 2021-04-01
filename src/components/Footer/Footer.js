@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { Container, Grid, List, Header, Icon } from "semantic-ui-react";
+import { Container, Grid, List, Header } from "semantic-ui-react";
 import "./Footer.scss";
 
 export default function Footer() {

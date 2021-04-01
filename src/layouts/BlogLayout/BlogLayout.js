@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Grid, Icon, Header, List } from "semantic-ui-react";
+import { Container, Grid, Icon } from "semantic-ui-react";
 import Menu from "../../components/Menu";
 import SocialMedia from "../../components/SocialMedia";
 import Footer from "../../components/Footer";

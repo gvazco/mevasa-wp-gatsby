@@ -1,8 +1,6 @@
 import React from "react";
 import { Grid, Card, Icon, Image, Button } from "semantic-ui-react";
 import { Link } from "gatsby";
-import moment from "moment";
-import "moment/locale/es";
 import { map } from "lodash";
 import "./ProductList.scss";
 
@@ -26,10 +24,6 @@ export default function ProductList(props) {
 							<Card.Meta>
 								<Icon name="certificate" />
 								{producto.Seo.seodescription}
-							</Card.Meta>
-							<Card.Meta>
-								{/* <Icon name="calendar alternate outline" />
-									{moment(producto.date).format("LL")} */}
 							</Card.Meta>
 							<Button.Group>
 								<Button
