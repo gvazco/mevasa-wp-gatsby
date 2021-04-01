@@ -125,8 +125,10 @@
 	}
 
 	.ui.grid > * {
-		padding-left: 0px !important;
-		padding-right: 0px !important;
+		@media (max-width: $breakpoint-up-sm) {
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+		}
 	}
 }
 .services-list {
