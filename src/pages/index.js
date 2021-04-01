@@ -114,7 +114,7 @@ export default function index() {
 						Servicios
 					</a>
 				</Divider>
-				<Segment>
+				<Segment className="services">
 					<Grid className="services-list">
 						<Grid.Column mobile={16} tablet={16} computer={5}>
 							<Link to="#">

@@ -115,6 +115,12 @@
 	box-shadow: none !important;
 	border: none !important;
 }
+
+.ui.segment.services {
+	@media (max-width: $breakpoint-up-sm) {
+		padding: 0 !important;
+	}
+}
 .services-list {
 	margin: 0 !important;
 	justify-content: center;
