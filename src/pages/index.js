@@ -50,7 +50,7 @@ export default function index() {
 				</Grid.Column>
 			</Container>
 
-			<Container fluid>
+			<Container fluid className="sections">
 				<Segment style={{ padding: "8em 0 0 0" }} vertical>
 					<Grid container stackable verticalAlign="middle">
 						<Grid.Row>
