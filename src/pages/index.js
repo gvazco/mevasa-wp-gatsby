@@ -79,9 +79,6 @@ export default function index() {
 									para el desarrollo de proyectos constructivos, de
 									mantenimiento o remodelación.
 								</p>
-							</Grid.Column>
-							<Grid.Column textAlign="center" floated="right" width={6}>
-								<Image bordered rounded size="large" src={team} />
 								<Button
 									style={{ margin: "2em 0" }}
 									href="/portafolio"
@@ -90,6 +87,9 @@ export default function index() {
 								>
 									Ver más...
 								</Button>
+							</Grid.Column>
+							<Grid.Column textAlign="center" floated="right" width={6}>
+								<Image size="large" src={team} style={{ height: "auto" }} />
 							</Grid.Column>
 						</Grid.Row>
 					</Grid>
