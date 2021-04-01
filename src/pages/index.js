@@ -118,7 +118,7 @@ export default function index() {
 					<Grid className="services-list">
 						<Grid.Column mobile={16} tablet={16} computer={5}>
 							<Link to="#">
-								<Card className="post-list__item">
+								<Card className="services-list__item">
 									<Image src={team} />
 									<Card.Content>
 										<Card.Header>Corte y Doblez de Lámina</Card.Header>
@@ -128,16 +128,13 @@ export default function index() {
 											<Icon name="file text" />
 											Descripcion
 										</Card.Meta>
-										<Card.Meta>
-											<Icon name="calendar alternate outline" />
-										</Card.Meta>
 									</Card.Content>
 								</Card>
 							</Link>
 						</Grid.Column>
 						<Grid.Column mobile={16} tablet={16} computer={5}>
 							<Link to="#">
-								<Card className="post-list__item">
+								<Card className="services-list__item">
 									<Image src={team} />
 									<Card.Content>
 										<Card.Header>Suministro de Materiales</Card.Header>
@@ -147,16 +144,13 @@ export default function index() {
 											<Icon name="file text" />
 											Descripcion
 										</Card.Meta>
-										<Card.Meta>
-											<Icon name="calendar alternate outline" />
-										</Card.Meta>
 									</Card.Content>
 								</Card>
 							</Link>
 						</Grid.Column>
 						<Grid.Column mobile={16} tablet={16} computer={5}>
 							<Link to="#">
-								<Card className="post-list__item">
+								<Card className="services-list__item">
 									<Image src={team} />
 									<Card.Content>
 										<Card.Header>Instalación Especializada</Card.Header>
@@ -165,9 +159,6 @@ export default function index() {
 										<Card.Meta>
 											<Icon name="file text" />
 											Descripcion
-										</Card.Meta>
-										<Card.Meta>
-											<Icon name="calendar alternate outline" />
 										</Card.Meta>
 									</Card.Content>
 								</Card>

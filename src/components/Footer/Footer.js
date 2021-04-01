@@ -25,7 +25,7 @@ export default function Footer() {
 							<List.Item as="a" href="/blog">
 								Documentación
 							</List.Item>
-							<List.Item as="a" href="https://wa.link/szvz94">
+							<List.Item as="a" href="https://wa.link/szvz94" target="_blank">
 								Contacto
 							</List.Item>
 						</List>
@@ -52,7 +52,11 @@ export default function Footer() {
 							<List.Item as="a">info.mevasa@gmail.com</List.Item>
 							<List.Item as="a">ventas@techosymantenimientos.com.mx</List.Item>
 							<List.Item />
-							<List.Item as="a">
+							<List.Item
+								as="a"
+								href="https://g.page/mevasacomercializadora?share"
+								target="_blank"
+							>
 								<b>Dirección Físcal:</b> Ricardo Flores Magón #105, Izcalli
 								Chamapa, 53689, Naucalpan de Juárez, EdoMéx.
 							</List.Item>

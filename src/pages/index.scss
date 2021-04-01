@@ -126,7 +126,11 @@
 		&:hover {
 			background-color: rgb(229, 236, 250);
 		}
-
+		.header {
+			text-align: center;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
 		.extra {
 			.meta {
 				padding: 5px 0;
