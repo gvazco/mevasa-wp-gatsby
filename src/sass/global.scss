@@ -1,5 +1,14 @@
 @import "./index.scss";
 
 p {
-  color: $font-gray;
+	color: $font-gray;
+	overflow-wrap: break-all !important;
+}
+
+a {
+	text-decoration: none;
+	overflow-wrap: break-all !important;
+	&:hover {
+		text-decoration: none;
+	}
 }

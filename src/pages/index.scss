@@ -10,20 +10,16 @@
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	background-size: cover;
-	display: flex;
 	overflow: hidden;
-	align-items: center;
+	display: flex;
 	justify-content: center;
+	align-content: center;
 
 	.text {
-		padding: 10% 0 !important;
-
-		max-width: 1140px;
+		padding: 10% 14% !important;
 
 		a {
 			z-index: 10;
-
-			background-color: rgba(255, 255, 255, 0.3);
 
 			&:hover {
 				text-decoration-line: none !important;
@@ -32,7 +28,7 @@
 			h1 {
 				font-family: "BaronNeue";
 				letter-spacing: 5px;
-				font-size: 5.5rem;
+				font-size: 6rem;
 				text-align: center;
 				color: white;
 				text-shadow: 3px 3px 6px rgb(0, 0, 0);
@@ -42,32 +38,41 @@
 
 				&:hover {
 					color: #21ba45;
-					font-size: 6rem;
+					font-size: 6.2rem;
 					text-shadow: 3px 3px 6px rgb(0, 0, 0);
 				}
 
 				@media (max-width: $breakpoint-up-sm) {
-					font-size: 2.2rem;
+					font-size: 1.8rem;
 					letter-spacing: 3px;
 					&:hover {
-						font-size: 2.3rem !important;
+						font-size: 1.8rem !important;
+					}
+				}
+
+				@media (max-width: $breakpoint-up-md) and (min-width: $breakpoint-down-xs) {
+					font-size: 4rem;
+					letter-spacing: 3px;
+					&:hover {
+						font-size: 4.2rem !important;
 					}
 				}
 			}
-			h3 {
-				font-size: 1.5rem;
-				text-transform: uppercase;
-				text-align: center;
-				color: white;
-				font-weight: 500;
-				padding: 5px 0;
-				background-color: rgba(0, 0, 0, 0.75);
+		}
 
-				@media (max-width: $breakpoint-up-sm) {
-					font-size: 1rem;
-					letter-spacing: 1px;
-					padding: 3px;
-				}
+		h3 {
+			font-size: 1.5rem;
+			text-transform: uppercase;
+			text-align: center;
+			color: white;
+			font-weight: 500;
+			padding: 5px 0;
+			background-color: rgba(0, 0, 0, 0.75);
+
+			@media (max-width: $breakpoint-up-sm) {
+				font-size: 1rem;
+				letter-spacing: 1px;
+				padding: 3px;
 			}
 		}
 		.main-button {
@@ -78,7 +83,7 @@
 				transition: 0.5s;
 
 				@media (max-width: $breakpoint-up-sm) {
-					font-size: 1.1rem;
+					font-size: 13px;
 				}
 			}
 			.or {
@@ -103,5 +108,51 @@
 		@media (max-width: $breakpoint-up-sm) {
 			padding: 50% 0 !important;
 		}
+	}
+}
+
+.ui.segment {
+	box-shadow: none !important;
+	border: none !important;
+}
+.services-list {
+	margin: 0 !important;
+	justify-content: center;
+
+	&__item {
+		width: 100% !important;
+		box-shadow: 2px 2px 5px #999 !important;
+
+		&:hover {
+			background-color: rgb(229, 236, 250);
+		}
+
+		.extra {
+			.meta {
+				padding: 5px 0;
+			}
+			i {
+				margin-right: 5px !important;
+			}
+		}
+	}
+}
+.ui.segment.newsletter {
+	padding: 5em 2em;
+	background-image: url("https://mevasa-gatsby.techosymantenimientos.com.mx/wp-content/uploads/2021/03/SAM_2245.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	text-shadow: 1px 1px 2px black;
+	// background-image: linear-gradient(black, grey, lightgrey);
+
+	h1 {
+		font-family: "BaronNeue";
+		letter-spacing: 3px;
+	}
+
+	a.button {
+		margin-top: 1em;
 	}
 }

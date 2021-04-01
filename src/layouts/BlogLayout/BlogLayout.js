@@ -1,7 +1,8 @@
 import React from "react";
-import { Container, Grid, Icon } from "semantic-ui-react";
+import { Container, Grid, Icon, Header, List } from "semantic-ui-react";
 import Menu from "../../components/Menu";
 import SocialMedia from "../../components/SocialMedia";
+import Footer from "../../components/Footer";
 import "./BlogLayout.scss";
 
 export default function BlogLayout(props) {
@@ -32,21 +33,10 @@ export default function BlogLayout(props) {
 						<Menu />
 					</Grid.Column>
 				</Grid.Row>
-
 				<Grid.Column mobile={16} tablet={16} computer={16}>
 					{children}
 				</Grid.Column>
-
-				<Grid.Column mobile={16} tablet={16} computer={16}>
-					<p>
-						© 2020 Techos y Mantenimientos | Mevasa Comercializadora. Todos los
-						derechos reservados. Sitio desarrollado por:
-						<a href="https://facebook.com/disturbioilustrativo">
-							{" "}
-							Disturbio Ilustrativo.
-						</a>
-					</p>
-				</Grid.Column>
+				<Footer />
 			</Grid>
 		</Container>
 	);
