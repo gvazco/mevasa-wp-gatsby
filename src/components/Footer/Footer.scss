@@ -3,12 +3,12 @@
 	background-color: white;
 	padding: 4% !important;
 	// box-shadow: 3px -2px 9px 2px #999 !important;
-	box-shadow: 7px -7px 12px 3px #d1d1d1, 7px 7px 12px 3px #ffffff;
+	box-shadow: 7px -7px 14px 3px #d1d1d1, 7px 7px 14px 3px #ffffff;
 
 	.ui.stackable.grid:not(.vertically) > .row {
 		@media only screen and (max-width: 767px) {
 			margin: 0;
-			padding: 3%;
+			padding: 4% !important;
 		}
 	}
 }
