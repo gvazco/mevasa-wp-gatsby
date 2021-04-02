@@ -29,7 +29,7 @@ export default function index() {
 			<Container fluid className="hero">
 				<Grid.Column className="text">
 					<Link to="/portafolio">
-						<h1>SOMOS ESPECIALISTAS</h1>
+						<h1>Somos Especialistas</h1>
 
 						{/* <Button positive fluid className="main-button">
 							¡Quiero ver más!
@@ -99,50 +99,52 @@ export default function index() {
 				<Segment className="services">
 					<Grid className="services-list">
 						<Grid.Column mobile={16} tablet={12} computer={5}>
-							<Link to="#">
-								<Card className="services-list__item">
-									<Image src={team} />
-									<Card.Content>
-										<Card.Header>Corte y Doblez de Lámina</Card.Header>
-									</Card.Content>
-									<Card.Content extra>
-										<Card.Meta>
-											<Icon name="file text" />
-											Lorem Ipsum is simply dummy text of the printing and
-											typesetting industry. Lorem Ipsum has been the industry's
-											standard dummy text ever since the 1500s, when an unknown
-											printer took a galley of type and scrambled it to make a
-											type specimen book.
-										</Card.Meta>
-									</Card.Content>
-								</Card>
-							</Link>
-						</Grid.Column>
-						<Grid.Column mobile={16} tablet={12} computer={5}>
-							<Link to="#">
-								<Card className="services-list__item">
-									<Image src={team} />
-									<Card.Content>
-										<Card.Header>Suministro de Materiales</Card.Header>
-									</Card.Content>
-									<Card.Content extra>
-										<Card.Meta>
-											<Icon name="file text" />
-											Lorem Ipsum is simply dummy text of the printing and
-											typesetting industry. Lorem Ipsum has been the industry's
-											standard dummy text ever since the 1500s, when an unknown
-											printer took a galley of type and scrambled it to make a
-											type specimen book.
-										</Card.Meta>
-									</Card.Content>
-								</Card>
-							</Link>
+							<Card className="services-list__item">
+								<Image src={team} />
+								<Card.Content>
+									<Card.Header>
+										<h3>Corte y Doblez de Lámina</h3>
+									</Card.Header>
+								</Card.Content>
+								<Card.Content extra>
+									<Card.Meta>
+										<Icon name="file text" />
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry. Lorem Ipsum has been the industry's
+										standard dummy text ever since the 1500s, when an unknown
+										printer took a galley of type and scrambled it to make a
+										type specimen book.
+									</Card.Meta>
+								</Card.Content>
+							</Card>
 						</Grid.Column>
 						<Grid.Column mobile={16} tablet={12} computer={5}>
 							<Card className="services-list__item">
 								<Image src={team} />
 								<Card.Content>
-									<Card.Header>Instalación Especializada</Card.Header>
+									<Card.Header>
+										<h3>Suministro de Materiales</h3>
+									</Card.Header>
+								</Card.Content>
+								<Card.Content extra>
+									<Card.Meta>
+										<Icon name="file text" />
+										Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry. Lorem Ipsum has been the industry's
+										standard dummy text ever since the 1500s, when an unknown
+										printer took a galley of type and scrambled it to make a
+										type specimen book.
+									</Card.Meta>
+								</Card.Content>
+							</Card>
+						</Grid.Column>
+						<Grid.Column mobile={16} tablet={12} computer={5}>
+							<Card className="services-list__item">
+								<Image src={team} />
+								<Card.Content>
+									<Card.Header>
+										<h3>Instalación Especializada</h3>
+									</Card.Header>
 								</Card.Content>
 								<Card.Content extra>
 									<Card.Meta>
