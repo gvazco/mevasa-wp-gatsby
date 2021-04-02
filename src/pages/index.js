@@ -88,6 +88,7 @@ export default function index() {
 									size="big"
 								>
 									Ver más...
+									<Icon name="right arrow" />
 								</Button>
 							</Grid.Column>
 						</Grid.Row>
@@ -115,6 +116,16 @@ export default function index() {
 										printer took a galley of type and scrambled it to make a
 										type specimen book.
 									</Card.Meta>
+									<Button
+										style={{ margin: "1.5em 0" }}
+										href="https://wa.link/szvz94"
+										primary
+										fluid
+										size="big"
+									>
+										Información
+										<Icon name="right arrow" />
+									</Button>
 								</Card.Content>
 							</Card>
 						</Grid.Column>
@@ -135,6 +146,16 @@ export default function index() {
 										printer took a galley of type and scrambled it to make a
 										type specimen book.
 									</Card.Meta>
+									<Button
+										style={{ margin: "1.5em 0" }}
+										href="https://wa.link/szvz94"
+										primary
+										fluid
+										size="big"
+									>
+										Información
+										<Icon name="right arrow" />
+									</Button>
 								</Card.Content>
 							</Card>
 						</Grid.Column>
@@ -155,6 +176,16 @@ export default function index() {
 										printer took a galley of type and scrambled it to make a
 										type specimen book.
 									</Card.Meta>
+									<Button
+										style={{ margin: "1.5em 0" }}
+										href="https://wa.link/szvz94"
+										primary
+										fluid
+										size="big"
+									>
+										Información
+										<Icon name="right arrow" />
+									</Button>
 								</Card.Content>
 							</Card>
 						</Grid.Column>
