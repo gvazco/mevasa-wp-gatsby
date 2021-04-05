@@ -136,51 +136,6 @@
 	letter-spacing: 1px;
 }
 
-.ui.segment.services {
-	@media (max-width: $breakpoint-up-sm) {
-		padding: 0 !important;
-	}
-
-	.ui.grid > * {
-		@media (max-width: $breakpoint-up-sm) {
-			padding-left: 0px !important;
-			padding-right: 0px !important;
-		}
-	}
-}
-
-.services-list {
-	margin: 0 !important;
-	justify-content: center;
-
-	&__item {
-		width: 100% !important;
-		box-shadow: 2px 2px 5px #999 !important;
-		background-color: rgb(229, 236, 250) !important;
-
-		&:hover {
-			background-color: rgb(229, 236, 250);
-		}
-
-		.header {
-			text-transform: capitalize;
-			text-align: center;
-			h3 {
-				font-family: "BaronNeue";
-				letter-spacing: 1px;
-			}
-		}
-
-		.extra {
-			.meta {
-				padding: 5px 0;
-			}
-			i {
-				margin-right: 5px !important;
-			}
-		}
-	}
-}
 .ui.segment.newsletter {
 	padding: 4em 2em;
 	background-image: url("https://mevasa-gatsby.techosymantenimientos.com.mx/wp-content/uploads/2021/03/SAM_2245.jpg");
