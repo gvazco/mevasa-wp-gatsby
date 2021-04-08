@@ -51,6 +51,9 @@
 		.row.buttons {
 			display: flex;
 			justify-content: space-around;
+			a {
+				margin: 1.5em 0;
+			}
 		}
 
 		code {
