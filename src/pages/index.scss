@@ -138,7 +138,7 @@
 
 .ui.segment.newsletter {
 	padding: 4em 2em;
-	background-image: url("https://mevasa-gatsby.techosymantenimientos.com.mx/wp-content/uploads/2021/03/SAM_2245.jpg");
+	background-image: url("https://mevasa-gatsby.techosymantenimientos.com.mx/wp-content/uploads/2021/04/textura_01.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -153,7 +153,7 @@
 		font-family: "BaronNeue";
 		letter-spacing: 3px;
 		font-size: 3em;
-		@media (max-width: $breakpoint-up-sm) {
+		@media (max-width: $breakpoint-up-md) {
 			font-size: 2em;
 			letter-spacing: 1px;
 		}
