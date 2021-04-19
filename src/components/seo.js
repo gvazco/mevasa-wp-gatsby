@@ -45,6 +45,10 @@ function SEO({ description, lang, meta, title, image }) {
 			image={ogImage}
 			meta={[
 				{
+					name: "p:domain_verify",
+					content: "7bbe704063d36f89527b13d25410d588",
+				},
+				{
 					name: `description`,
 					content: metaDescription,
 				},
