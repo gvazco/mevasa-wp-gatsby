@@ -75,6 +75,7 @@ export default function Footer() {
 						Disturbio Ilustrativo.
 					</a>
 				</p>
+				<img src="https://tracker.metricool.com/c3po.jpg?hash=3b3edfd74666be4b352543d6dfb5cc" />
 			</Grid.Column>
 		</Container>
 	);
