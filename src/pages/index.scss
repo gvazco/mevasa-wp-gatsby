@@ -16,14 +16,14 @@
 	// align-content: center;
 	// max-height: 800px;
 	background: url(https://mevasa-gatsby.techosymantenimientos.com.mx/wp-content/uploads/2021/05/ezgif.com-gif-maker.gif)
-		rgba(26, 29, 29, 0.8);
+		rgba(26, 29, 29, 0.6);
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	max-height: 1080px;
+	max-height: 800px;
 	background-blend-mode: multiply;
 
 	.text {
@@ -40,7 +40,7 @@
 				font-family: "Barlow";
 				text-transform: uppercase;
 				letter-spacing: 5px;
-				font-size: 5.5rem;
+				font-size: 5.6rem;
 				text-align: center;
 				color: white;
 				// text-shadow: 1px 1px 1px rgb(0, 0, 0);
@@ -57,17 +57,11 @@
 				@media (max-width: $breakpoint-up-sm) {
 					font-size: 1.8rem;
 					letter-spacing: 3px;
-					&:hover {
-						font-size: 1.8rem !important;
-					}
 				}
 
 				@media (max-width: $breakpoint-up-md) and (min-width: $breakpoint-down-xs) {
 					font-size: 4rem;
 					letter-spacing: 3px;
-					&:hover {
-						font-size: 4.2rem !important;
-					}
 				}
 			}
 		}
@@ -154,7 +148,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
-	text-shadow: 1px 1px 2px black;
+	text-shadow: 1px 1px 1px black;
 	display: flex;
 	align-content: center;
 	justify-content: center;
