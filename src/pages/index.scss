@@ -6,15 +6,6 @@
 @import "../sass/index.scss";
 
 .hero {
-	// background-image: url("https://mevasa-gatsby.techosymantenimientos.com.mx/wp-content/uploads/2021/05/ezgif.com-gif-maker.gif") !important;
-	// background-repeat: no-repeat;
-	// background-position: 50% 50%;
-	// background-size: contain;
-	// overflow: hidden;
-	// display: flex;
-	// justify-content: center;
-	// align-content: center;
-	// max-height: 800px;
 	background: url(https://mevasa-gatsby.techosymantenimientos.com.mx/wp-content/uploads/2021/05/ezgif.com-gif-maker.gif)
 		rgba(26, 29, 29, 0.6);
 	background-size: cover;
@@ -73,7 +64,7 @@
 			color: white;
 			font-weight: 500;
 			padding: 5px 0;
-			background-color: rgba(0, 0, 0, 0.75);
+			background-color: rgba(0, 0, 0, 0.3);
 
 			@media (max-width: $breakpoint-up-sm) {
 				font-size: 1rem;
